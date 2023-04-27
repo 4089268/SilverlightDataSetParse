@@ -1,0 +1,44 @@
+<xs:schema id="Ing_Caja" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Ing_Caja" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table_Conceptos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="caja" type="xs:string" minOccurs="0" />
+              <xs:element name="facturado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="cobrado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="recibos" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <Ing_Caja>
+    <Table>
+      <caja>E0012 OFICINAS CENTRALES XALAPA</caja>
+      <facturado>7485.50</facturado>
+      <cobrado>7485.50</cobrado>
+      <recibos>5</recibos>
+    </Table>
+    <Table>w
+      <caja>E0011 SUCURSAL OXXO</caja>
+      <facturado>83841.17</facturado>
+      <cobrado>83841.17</cobrado>
+      <recibos>482</recibos>
+    </Table>
+    <Table>
+      <caja>C0001 OLGA LIDIA CRUZ MARTIR</caja>
+      <facturado>2138950.74</facturado>
+      <cobrado>2138950.74</cobrado>
+      <recibos>6037</recibos>
+    </Table>
+    <Table>
+      <caja>   TOTAL</caja>
+      <facturado>2230277.41</facturado>
+      <cobrado>2230277.41</cobrado>
+      <recibos>6524</recibos>
+    </Table>
+  </Ing_Caja>
+</xs:schema>
