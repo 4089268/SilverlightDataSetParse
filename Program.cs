@@ -20,5 +20,9 @@ foreach(DataTable table in dataSet.Tables){
     foreach( DataColumn column in table.Columns ){
         Console.WriteLine($"\t\t(-) DataColumn Name:{column.ColumnName}  Type:{column.DataType.Name}");
     }
+
+    Console.WriteLine($"\t(-) Total Rows: {table.Rows.Count}");
+
+
 }
      

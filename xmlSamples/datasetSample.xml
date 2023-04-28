@@ -2,7 +2,7 @@
   <xs:element name="Ing_Caja" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Table_Conceptos">
+        <xs:element name="Table">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="caja" type="xs:string" minOccurs="0" />
